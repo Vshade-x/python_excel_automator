@@ -1,8 +1,25 @@
-Fecha,Producto,Cantidad,Precio Unitario
+Date,Product,Quantity,Unit Price
 2025-10-01,Laptop Gamer,1,1500
 2025-10-01,Mouse Pad,5,10
-2025-10-02,Monitor 4K,2,400
-2025-10-03,Teclado Mecanico,3,150
-2025-10-04,Webcam HD,10,35
-2025-10-05,Tarjeta Grafica,1,950
-2025-10-06,Cable HDMI,20,5
+2025-10-02,Monitor 4K,Two Hundred,400  // Dato sucio: texto
+2025-10-03,Mechanical Keyboard,3,150
+2025-10-04,Webcam HD,,35  // Dato faltante (NaN)
+2025-10-05,Graphics Card,1,950
+2025-10-06,HDMI Cable,20,5
+2025-10-07,SSD 1TB,2,120
+2025-10-07,Mouse Óptico,8,12
+2025-10-08,Televisor 55",1,750
+2025-10-08,Silla Gamer,1,280
+2025-10-09,Headset Pro,6,85
+2025-10-09,Cable USB-C,15,8
+2025-10-10,Router Wi-Fi,4,65
+2025-10-10,Webcam Económica,12,20
+2025-10-11,Tableta Gráfica,1,450
+2025-10-11,Impresora Láser,Uno,220  // Dato sucio: texto
+2025-10-12,Papel Fotográfico,50,4
+2025-10-13,Software Edición,,300  // Dato faltante (NaN)
+2025-10-14,Micrófono Condensador,2,110
+2025-10-14,Trípode,1,45
+2025-10-15,Batería Externa,10,25
+2025-10-15,Hub USB,4,18
+2025-10-16,Disco Duro Externo,3,90
