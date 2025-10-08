@@ -1,8 +1,19 @@
-# python_excel_automator
-Script de Python para automatizar el filtrado y reporte de datos Excel.
+# PYTHON EXCEL DATA AUTOMATOR | ROBUST REPORT GENERATOR
 
-Problema Resuelto: "Automatiza la generación de reportes de alto valor a partir de grandes conjuntos de datos de ventas(CSV)."
+### 🎯 Project Overview
 
-Funcionalidades: "Calcula automaticamente el total de la venta y filtra los datos seguún un umbral definido por el ususario (ej. Ventas mayores a $500)."
+A professional, single-click Python tool designed to **eliminate manual data errors**, perform complex calculations, and filter sales reports. Built for maximum reliability using Pandas and Openpyxl.
 
-Tecnología: "Python, Pandas y Openpyxl."
+### ✨ Key Features & Robustness
+
+* **Core Function:** Calculates total sales (Quantity * Unit Price) and filters data based on custom thresholds (e.g., Sales > $200).
+* **Advanced Error Handling:** Automatically converts and cleans non-numeric and missing values (NaN) in key calculation columns to zero (0). **The script will not crash due to dirty client data.**
+* **Delivery:** Delivered with a **1-Click Execution File (.bat)** for instant client use on Windows.
+* **Technology:** Python, Pandas, and Openpyxl.
+
+### 🚀 Execution and Usage
+
+**1. Requirements:** Python (3.x) and required libraries: `pip install pandas openpyxl`
+**2. Data Input:** Place your source data file, **`sales_data.csv`**, in the project root folder. (Headers must be: `Date, Product, Quantity, Unit Price`)
+**3. Execution:** Simply **double-click the `ejecutar_report.bat` file** to run the automation.
+**4. Output:** The final report, **`filtered_sales_report.xlsx`**, will be generated in the same folder.
